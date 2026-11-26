@@ -1,0 +1,172 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "meta": {
+    "name": "Plant Pedia",
+    "version": "1.0.0",
+    "description": "Design tokens for the Plant Pedia public site and admin panel."
+  },
+  "color": {
+    "primary": {
+      "900": { "value": "#0B3D2E" },
+      "700": { "value": "#14532D" },
+      "600": { "value": "#166534" },
+      "500": { "value": "#15803D" }
+    },
+    "leaf": {
+      "500": { "value": "#4D7C0F" }
+    },
+    "sage": {
+      "200": { "value": "#D9E5D6" },
+      "100": { "value": "#EDF3EA" }
+    },
+    "cream": {
+      "50": { "value": "#FBFAF6" }
+    },
+    "stone": {
+      "900": { "value": "#1C1917" },
+      "700": { "value": "#44403C" },
+      "600": { "value": "#57534E" },
+      "400": { "value": "#A8A29E" },
+      "300": { "value": "#D6D3D1" },
+      "100": { "value": "#F5F5F4" }
+    },
+    "amber": {
+      "500": { "value": "#D97706" },
+      "100": { "value": "#FEF3C7" }
+    },
+    "terracotta": {
+      "500": { "value": "#C2410C" },
+      "100": { "value": "#FFEDD5" }
+    },
+    "danger": {
+      "600": { "value": "#B91C1C" },
+      "100": { "value": "#FEE2E2" }
+    },
+    "info": {
+      "600": { "value": "#0369A1" },
+      "100": { "value": "#E0F2FE" }
+    },
+    "success": {
+      "600": { "value": "#15803D" },
+      "100": { "value": "#DCFCE7" }
+    },
+    "surface": {
+      "page": { "value": "#FBFAF6" },
+      "card": { "value": "#FFFFFF" },
+      "muted": { "value": "#F5F5F4" },
+      "inverse": { "value": "#0B3D2E" }
+    },
+    "text": {
+      "primary": { "value": "#1C1917" },
+      "secondary": { "value": "#57534E" },
+      "muted": { "value": "#A8A29E" },
+      "inverse": { "value": "#FBFAF6" },
+      "link": { "value": "#14532D" }
+    },
+    "border": {
+      "default": { "value": "#D6D3D1" },
+      "strong": { "value": "#A8A29E" },
+      "focus": { "value": "#15803D" }
+    }
+  },
+  "font": {
+    "display": {
+      "en": { "value": "Fraunces, Georgia, serif" },
+      "bn": { "value": "Noto Serif Bengali, serif" }
+    },
+    "body": {
+      "en": { "value": "Inter, system-ui, sans-serif" },
+      "bn": { "value": "Hind Siliguri, Noto Sans Bengali, sans-serif" }
+    },
+    "mono": {
+      "value": "JetBrains Mono, ui-monospace, monospace"
+    }
+  },
+  "fontSize": {
+    "xs": { "value": "12px", "lineHeight": "1.5" },
+    "sm": { "value": "14px", "lineHeight": "1.6" },
+    "base": { "value": "16px", "lineHeight": "1.6" },
+    "lg": { "value": "18px", "lineHeight": "1.6" },
+    "xl": { "value": "20px", "lineHeight": "1.5" },
+    "2xl": { "value": "24px", "lineHeight": "1.35" },
+    "3xl": { "value": "30px", "lineHeight": "1.25" },
+    "4xl": { "value": "36px", "lineHeight": "1.2" },
+    "5xl": { "value": "48px", "lineHeight": "1.15" },
+    "6xl": { "value": "60px", "lineHeight": "1.1" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400 },
+    "medium": { "value": 500 },
+    "semibold": { "value": 600 },
+    "bold": { "value": 700 }
+  },
+  "lineHeight": {
+    "bnBody": { "value": "1.8" },
+    "enBody": { "value": "1.6" },
+    "heading": { "value": "1.2" },
+    "tight": { "value": "1.1" }
+  },
+  "space": {
+    "1": { "value": "4px" },
+    "2": { "value": "8px" },
+    "3": { "value": "12px" },
+    "4": { "value": "16px" },
+    "6": { "value": "24px" },
+    "8": { "value": "32px" },
+    "12": { "value": "48px" },
+    "16": { "value": "64px" },
+    "24": { "value": "96px" }
+  },
+  "radius": {
+    "sm": { "value": "4px" },
+    "md": { "value": "8px" },
+    "lg": { "value": "12px" },
+    "xl": { "value": "16px" },
+    "full": { "value": "999px" }
+  },
+  "shadow": {
+    "sm": { "value": "0 1px 2px rgba(28, 25, 23, 0.06)" },
+    "md": { "value": "0 4px 12px rgba(28, 25, 23, 0.08)" },
+    "lg": { "value": "0 12px 32px rgba(28, 25, 23, 0.12)" }
+  },
+  "breakpoint": {
+    "sm": { "value": "640px" },
+    "md": { "value": "768px" },
+    "lg": { "value": "1024px" },
+    "xl": { "value": "1280px" },
+    "2xl": { "value": "1536px" }
+  },
+  "container": {
+    "public": { "value": "1280px" },
+    "admin": { "value": "1440px" },
+    "prose": { "value": "72ch" }
+  },
+  "zIndex": {
+    "base": { "value": 0 },
+    "dropdown": { "value": 1000 },
+    "sticky": { "value": 1100 },
+    "overlay": { "value": 1200 },
+    "modal": { "value": 1300 },
+    "toast": { "value": 1400 }
+  },
+  "motion": {
+    "duration": {
+      "fast": { "value": "150ms" },
+      "base": { "value": "250ms" },
+      "slow": { "value": "350ms" }
+    },
+    "easing": {
+      "out": { "value": "cubic-bezier(0.16, 1, 0.3, 1)" },
+      "in": { "value": "cubic-bezier(0.7, 0, 0.84, 0)" },
+      "inOut": { "value": "cubic-bezier(0.65, 0, 0.35, 1)" }
+    }
+  },
+  "focus": {
+    "ringWidth": { "value": "2px" },
+    "ringOffset": { "value": "2px" },
+    "ringColor": { "value": "#15803D" }
+  },
+  "touchTarget": {
+    "min": { "value": "44px" }
+  }
+}

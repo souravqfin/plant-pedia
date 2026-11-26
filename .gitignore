@@ -1,0 +1,77 @@
+# Environment
+.env
+.env.*
+!.env.example
+*.local
+
+# Backend
+/backend/vendor/
+/backend/node_modules/
+/backend/public/build/
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/backend/storage/app/*
+!/backend/storage/app/.gitignore
+!/backend/storage/app/public/
+/backend/storage/app/public/*
+!/backend/storage/app/public/.gitignore
+/backend/storage/framework/cache/*
+!/backend/storage/framework/cache/.gitignore
+/backend/storage/framework/sessions/*
+!/backend/storage/framework/sessions/.gitignore
+/backend/storage/framework/views/*
+!/backend/storage/framework/views/.gitignore
+/backend/storage/logs/*
+!/backend/storage/logs/.gitignore
+/backend/.phpunit.result.cache
+/backend/.phpunit.cache/
+/backend/coverage/
+/backend/bootstrap/cache/*.php
+
+# Frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+/frontend/coverage/
+/frontend/playwright-report/
+/frontend/test-results/
+/frontend/storybook-static/
+/frontend/.turbo/
+/frontend/*.tsbuildinfo
+
+# Contracts generated artifacts (keep sources)
+/contracts/types.ts
+/contracts/openapi.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editors
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+/tmp/
+.cache/
+
+# Docker
+docker-compose.override.yml
+
+# Secrets and credentials
+*.pem
+*.key
+!backend/storage/*.key
+secrets/
